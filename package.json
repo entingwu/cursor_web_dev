@@ -8,11 +8,19 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "resolutions": {
+    "@langchain/core": "^0.3.68"
+  },
   "dependencies": {
+    "@langchain/community": "^0.3.50",
+    "@langchain/core": "^0.3.68",
+    "@langchain/openai": "^0.6.7",
     "@supabase/supabase-js": "^2.50.5",
+    "langchain": "^0.3.30",
     "next": "15.3.5",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "typescript": "^5.9.2"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
